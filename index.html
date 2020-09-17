@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b8c2a693fd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsN">
+
     <title>Tom Mårtensson</title>
 </head>
 <body>
@@ -21,23 +22,24 @@
             </li>
         </div>
     </div>
-    <div class="container">
+    <div class="columns">
         
-        <div>
+        <div id="left">
             <h1>Tom Mårtensson</h1>
             <h2>Bigatan 5, 33151, Värnamo</h2>
-            <a href="mailto:tom.martenssson@gmail.com">Tom.martenssson@gmail.com</a>
+            <a id="mail" href="mailto:tom.martenssson@gmail.com">Tom.martenssson@gmail.com</a>
             <i class="fas fa-envelope"></i>
+            
+        </div>
+        <div>
+            <img id="bild" src="Cv.jpg" alt="Bild på mig :)";
         </div>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        
         <div>
-            <section>
-            <h1 id="omMig">Om mig</h1>
+            <section id="omMig">
+            <h1 >Om mig</h1>
             <p>Hej! Mitt namn är Tom och 20 år gammal. Jag gick på gymnasiet "finnvedens gymnasium" i Värnamo och då märkte jag att jag älskar att koda. Just nu pluggar jag till .NET utvecklare och letar efter LIA plats. </p>
             </section>
         </div>
@@ -47,34 +49,37 @@
         <br>
         <br>
         <br>
-        <section>
         <div>
-        <h1 id="Arbete">Arbetserfarenhet</h1>
-        <ul>
-            <h2>LagerArbetare</h2>
-            <h3>Mio Värnamo</h3>
-            <li>201909 - 202009: Provanställning 6 månader Mio lagerpersonal in- och utleveranser av varor, utlämning och utkörning av varor till kunder samt montering. Avslutas 20200309 pga av arbetsbrist.</li>
-            <h2>LagerArbetare (SommarJobb)</h2>
-            <h3>Mio Värnamo</h3>
-            <li>201907 - 201908: Sommarjobb Mio, lagerpersonal, in- och utleveranser av varor, utlämning och utkörning av varor till kunder samt montering. </li>
-            <h2>LagerArbetare (SommarJobb)</h2>
-            <h3>Mio Värnamo</h3>
-            <li>201806 - 201908: Sommarjobb Mio, lagerpersonal, in- och utleveranser av varor, utlämning och utkörning av varor till kunder samt montering. </li>
-            <h2>Lager</h2>
-            <h3>DB Schenker</h3>
-            <li>201706 - 201709: Sommarjobb DB Schenker vikt och volym genom Unicollar bemanning</li>
-        </ul>
-        </div>
+            <section id="Arbete">
+                <h1 id="Arbeteh1">Arbetserfarenhet</h1>
+                <ul>
+                <h2 id="lager">LagerArbetare</h2>
+                <h3>Mio Värnamo</h3>
+                <li>201909 - 202009: Provanställning 6 månader Mio lagerpersonal in- och utleveranser av varor, utlämning och utkörning av varor till kunder samt montering. Avslutas 20200309 pga av arbetsbrist.</li>
+                <br>
+                <h2 id="lager">LagerArbetare (SommarJobb)</h2>
+                <h3>Mio Värnamo</h3>
+                <li>201907 - 201908: Sommarjobb Mio, lagerpersonal, in- och utleveranser av varor, utlämning och utkörning av varor till kunder samt montering. </li>
+                <br>
+                <h2 id="lager">LagerArbetare (SommarJobb)</h2>
+                <h3>Mio Värnamo</h3>
+                <li>201806 - 201908: Sommarjobb Mio, lagerpersonal, in- och utleveranser av varor, utlämning och utkörning av varor till kunder samt montering. </li>
+                <h2>Lager</h2>
+                <h3>DB Schenker</h3>
+                <li>201706 - 201709: Sommarjobb DB Schenker vikt och volym genom Unicollar bemanning</li>
+            </ul>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    </div>
+        
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
         <div>
-            <section>
-                <h1 id="utbildning">Utbildning</h1>
+            <section id="utbildning">
+                <h1>Utbildning</h1>
                 <h2>Campus Värnamo</h2>
                 <p id="tid">Augusti 2020 - Maj 2022</p>
                 <h3>.NET Utvecklare</h3>
@@ -94,8 +99,8 @@
         <br>
         <br>
         <div>
-            <section>
-                <h1 id="intresse">Mina Intressen</h1>
+            <section id="intresse">
+                <h1>Mina Intressen</h1>
                 <p>På min fritid när jag inte pluggar så gillar jag att spela datorspel och kolla på fotboll. Mitt favorit lag inom fotbollen är Arsenal FC</p>
             </section>
         </div>
@@ -106,12 +111,16 @@
         <br>
         <br>
         <div>
-            <section>
-                <h1 id="git">Mina Arbeten</h1>
+            <section id="git">
+                <h1>Mina Arbeten</h1>
                 <br>
                 <a href="https://github.com/Tommartensson" target="_blank">Github</a>
+                
             </section>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
