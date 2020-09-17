@@ -1,0 +1,62 @@
+html
+{
+    background-color: aquamarine;
+}
+.container
+{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 70px;
+    background-color: white
+}
+#tid
+{
+    float: right;
+    color: darksalmon;
+}
+#navBar
+{
+    
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 70px;
+    background-color: orange
+   
+   
+}
+.nav-link
+{
+    text-decoration: none;
+    word-spacing: 35px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.navbar-nav
+{
+    list-style-type: none;
+}
+.nav-link:hover
+{
+    color: blue;
+}
+h1
+{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2, a
+{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container > h3, li, p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float: left;
+    
+}
