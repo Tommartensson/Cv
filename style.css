@@ -1,8 +1,9 @@
 html
 {
     background-color: aquamarine;
+    box-sizing: content-box;
 }
-.container
+.columns
 {
     text-align: center;
     margin: auto;
@@ -10,6 +11,7 @@ html
     border: 2px solid black;
     padding: 70px;
     background-color: white
+    
 }
 #tid
 {
@@ -33,7 +35,7 @@ html
     text-decoration: none;
     word-spacing: 35px;
     font-size: 30px;
-    color: whitesmoke;
+    color: whitesmoke
 }
 .navbar-nav
 {
@@ -50,8 +52,9 @@ h1
 }
 h2, a
 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     
 }
 .container > h3, li, p
@@ -60,4 +63,62 @@ h2, a
     font-size: 20px;
     float: left;
     
+}
+#left
+{
+    float: left;
+}
+#bild
+{
+    width: 300px;
+}
+#OmMig
+{
+    background-color: aquamarine;
+}
+
+
+
+@media screen and (max-width: 620px)
+{
+    h1
+{
+    
+    font-size: 40px;
+    width: 200px;
+}
+#Arbeteh1
+{
+    font-size: 30px;
+}
+#bild
+{
+    
+    width: 100%;
+}
+h2{
+    width: 50%;
+    
+}
+#mail
+{
+    font-size: 125%;
+    position: relative;
+    top: auto;
+    left: -20px;
+}
+.nav-link
+{
+    font-size: 120%;
+    color: black;
+    position: relative;
+    top: -70px;
+    left: -30px;
+}
+#lager
+{
+    position: relative;
+    top: auto;
+    left: -40px;
+}
 }
