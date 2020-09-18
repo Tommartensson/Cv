@@ -122,3 +122,13 @@ h2{
     left: -40px;
 }
 }
+@media screen and (max-width: 768px)
+{
+    .nav-link{
+        color: black;
+        position: relative;
+        top: -80px;
+        left: -10px;
+        font-size: 30px;
+    }
+}
