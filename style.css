@@ -2,6 +2,7 @@ html
 {
     background-color: aquamarine;
     box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 .columns
 {
@@ -76,7 +77,21 @@ h2, a
 {
     background-color: aquamarine;
 }
-
+@media screen and (max-width: 768px)
+{
+    .nav-link{
+        color: black;
+        position: relative;
+        top: -80px;
+        left: -10px;
+        font-size: 30px;
+    }
+    #Arbeteh1
+    {
+        position: relative;
+        left: -30px;
+    }
+}
 
 
 @media screen and (max-width: 620px)
@@ -121,14 +136,4 @@ h2{
     top: auto;
     left: -40px;
 }
-}
-@media screen and (max-width: 768px)
-{
-    .nav-link{
-        color: black;
-        position: relative;
-        top: -80px;
-        left: -10px;
-        font-size: 30px;
-    }
 }
